@@ -8,6 +8,13 @@
 
 // 1.4. Imprime en consola "El segundo desarrollador se llama ****"
 
+
+    let developer1 = "Pedro";
+    console.log("El primer desarrollador se llama " + developer1);
+
+    let developer2 = "Juan"
+    console.log("El segundo desarrollador se llama " + developer2);
+
 // ITERACIÓN 2: CONDICIONALES
 
 // 2.1
@@ -16,10 +23,42 @@
 // - En caso de que ambos tienen el mismo número de caracteres entonces imprime:
 // "Qué casualidad, ambos nombres tienen ** caracteres".
 
+    if (developer1.length < developer2.length) {
+        console.log("El desarrollador con nombre " + developer2 + " es el mas largo con " + developer2.length + " caracteres.")
+    } else if (developer1.length > developer2.length) {
+        console.log("El desarrollador con nombre " + developer1 + " es el mas largo con " + developer1.length + " caracteres.")
+    } else {
+        console.log("Qué casualidad, ambos nombres tienen " + developer1.length || developer2.length + " caracteres.")
+    }
+
 // ITERACIÓN 3: BUCLES
 
 // Crea un programa que:
 // - Solicita al usuario un nombre e imprime en consola la siguiente salida:
+
+
+// const input = prompt ("Escribe un nombre")
+
+// for (let i= 0; i < input.length; i++) {
+//     // console.log(input[i].toUpperCase().split(" "))
+    
+// }
+
+
+
+const input = prompt ("Escribe un nombre")
+let palabras = input.split(" ").length;
+
+console.log("Detalles ".toUpperCase() + "para " + input.toUpperCase().split());
+console.log(" ");
+console.log("Número de palabras " + palabras)
+
+for (let i = 0; i < input.length; i++) {
+    
+}
+
+
+// quiero que se imprima el nombre separado por espacios y separadas entre sí. y que encima me diga el total de carácteres de esa palabra
 
 /* 
 
