@@ -10,27 +10,31 @@
 
 // ITERACIÓN 2: CONDICIONALES
 
-// 2.1 Dependiendo de qué desarrollador tenga el nombre más largo se debe imprimir en consola:
+// 2.1
+// - Dependiendo de qué desarrollador tenga el nombre más largo se debe imprimir en consola:
 // "El desarrollador con nombre **** es el más largo con ** caracteres".
-
-// Pero si ambos tienen el mismo número de caracteres entonces imprime:
+// - En caso de que ambos tienen el mismo número de caracteres entonces imprime:
 // "Qué casualidad, ambos nombres tienen ** caracteres".
 
-// ITERACIÓN 3: FUNCIONES Y BUCLES
+// ITERACIÓN 3: BUCLES
 
-// Descomenta el siguiente comentario. la función integrada en el lenguaje prompt muestra un popup de entrada de texto para que el usuario escriba un nombre.
+// Crea un programa que:
+// - Solicita al usuario un nombre e imprime en consola la siguiente salida:
 
-// let input = prompt("Escribe un nombre");
+/* 
 
-// 3.1 Crea una función que devuelva los caracteres de un nombre separados por espacio y en mayusculas.
+DETALLES para 'NOMBRE_COMPLETO':
 
-// 3.2 Crea una función que cuente el número de palabras que tiene el nombre del usuario. Ejemplo si escribe "Antonio Alberto Jesús" devolverá 3.
+Numero de palabras TOTAL_PALABRAS:
+- P A L A B R A 1 (TOTAL_CARACTERS_PALABRA caracteres)
+- P A L A B R A 2 (TOTAL_CARACTERS_PALABRA caracteres)
+- P A L A B R A N (TOTAL_CARACTERS_PALABRA caracteres) 
 
-// 3.3 Crea una tercera función llamada printUserDetails que haga uso de las dos funciones anteriores para imprimir en consola la siguiente salida:
+*/
 
-// Si por ejemplo el usuario introduce en el prompt el input "Antonio Alberto Jesús", en la consola se imprimira tal cual el siguiente comentario:
+// Ejemplo si el usuario escribe Antonio Alberto Jesus en el prompt
 
-/*
+/* 
 
 DETALLES para 'Antonio Alberto Jesus':
 
@@ -40,6 +44,14 @@ Numero de palabras 3:
 - J E S U S (5 caracteres) 
 
 */
+
+//Para lograrlo necesitarás investigar, entender y aplicar los siguientes métodos y propiedades
+
+// String.toUpperCase()
+// Array.length
+// String.length
+// Array.split()
+// Array.join()
 
 // Happy coding!
 // www.google.com
