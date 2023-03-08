@@ -1,4 +1,5 @@
-// ITERACIÓN 1: VARIABLES
+
+   // ITERACIÓN 1: VARIABLES
 
 // 1.1 Crea una variable developer1 y asignale un nombre cualquiera.
 
@@ -8,6 +9,19 @@
 
 // 1.4. Imprime en consola "El segundo desarrollador se llama ****"
 
+
+let developer1 = "Mario"; 
+console.log("El primer desarrollador se llama" + developer1);
+let developer2 = "Pepito";
+console.log("El segundo desarrollador se llama" + developer2);
+
+
+
+
+
+
+
+
 // ITERACIÓN 2: CONDICIONALES
 
 // 2.1
@@ -15,6 +29,26 @@
 // "El desarrollador con nombre **** es el más largo con ** caracteres".
 // - En caso de que ambos tienen el mismo número de caracteres entonces imprime:
 // "Qué casualidad, ambos nombres tienen ** caracteres".
+
+
+ let  desarrollador = "Jose antonio"
+let desarrollador2 = "Pepito grillo"
+
+if (desarrollador.length > desarrollador2.length) {
+console.log("El desarrollador con nombre " + desarrollador + " es el más largo con " + desarrollador.length + " caracteres.");
+} 
+
+ else if (desarrollador2.length > desarrollador.length) {
+console.log("El desarrollador con nombre " + desarrollador2 + " es el más largo con " + desarrollador2.length + " caracteres.");
+} 
+
+
+else {
+console.log("Que casualidad, ambos nombres tienen"  + desarrollador.length + "caracteres " );
+}
+
+
+
 
 // ITERACIÓN 3: BUCLES
 
@@ -30,11 +64,7 @@ Numero de palabras TOTAL_PALABRAS:
 - P A L A B R A 2 (TOTAL_CARACTERS_PALABRA caracteres)
 - P A L A B R A N (TOTAL_CARACTERS_PALABRA caracteres) 
 
-*/
-
 // Ejemplo si el usuario escribe Antonio Alberto Jesus en el prompt
-
-/* 
 
 DETALLES para 'Antonio Alberto Jesus':
 
@@ -53,5 +83,22 @@ Numero de palabras 3:
 // Array.split()
 // Array.join()
 
-// Happy coding!
-// www.google.com
+
+const nombre = prompt("Introduce tu nombre completo:  ");
+const palabras = palabras.length;
+if () (let i = 0; i < numPalabras; i++) {
+
+}         
+console.log();  
+ }
+
+ (let i = 0; i < numPalabras; i++) {
+
+}
+
+
+
+
+
+
+
