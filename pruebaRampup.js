@@ -2,11 +2,21 @@
 
 // 1.1 Crea una variable developer1 y asignale un nombre cualquiera.
 
+let developer1 = "Agustín";
+
 // 1.2.Imprime en consola el texto "El primer desarrollador se llama ****"
+
+let developer1 = "Agustín";
+console.log("El segundo desarrollador se llama " + developer1);
 
 // 1.3.Crea una variable developer2 y asigna otro nombre.
 
+let developer2 = "María";
+
 // 1.4. Imprime en consola "El segundo desarrollador se llama ****"
+
+let developer2 = "María";
+console.log("El segundo desarrollador se llama " + developer2);
 
 // ITERACIÓN 2: CONDICIONALES
 
@@ -16,10 +26,21 @@
 // - En caso de que ambos tienen el mismo número de caracteres entonces imprime:
 // "Qué casualidad, ambos nombres tienen ** caracteres".
 
+let developer1 = "Agustín";
+let developer2 = " María";
+
+  if(developer1 === developer2) {
+    console.log("Qué casualidad, ambos nombres tienen ** caracteres");}
+    else if(developer1>developer2) 
+    console.log("El desarrollador con nombre" developer1 "es el más largo con ** caracteres")
+
+
 // ITERACIÓN 3: BUCLES
 
 // Crea un programa que:
 // - Solicita al usuario un nombre e imprime en consola la siguiente salida:
+
+const input = prompt('NOMBRE_COMPLETO');
 
 /* 
 
